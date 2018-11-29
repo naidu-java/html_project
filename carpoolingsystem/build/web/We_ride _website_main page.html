@@ -1,0 +1,113 @@
+ <!DOCTYPE>
+<html>
+<head><div><div style="text-shadow:4px 4px white,3px 3px white,4px 4px white,6px 6px grey;text-transform:uppercase;font-variant:small-caps">
+
+<center><font size="70px" color="black" type="verdana"><u><b>CAR POOLING SYSTEM</b></u></font></center></br></style></head></div>
+<body background="carrrr4.jpg">
+<head>
+<style>
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+</style>
+</head>
+<body>
+
+<center>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="car3.jpg" style="width:50%">
+  
+</div>
+
+<div class="mySlides fade">
+ 
+  <img src="bike.jpg"style="width:50%">
+ 
+</div>
+
+<div class="mySlides fade">
+ 
+  <img src="taxi.jpg" style="width:50%">
+  
+</div>
+
+</div>
+</center>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000);
+}
+</script>
+
+</body>
+ 
+
+
+<table WIDTH="100%">
+<tr>
+<td><center><b><h1><font face="Arial">Welcome To</font></h1></b></center></td>
+</tr>
+<tr>
+<td bgcolor="black"><marquee scrollamout="60" direction="right">
+<center><b><font face="verdana"><font color="white" size="+4">CAR POOLING SYSTEM</font></b></center></marquee>
+</td>
+</tr>
+<tr>
+<td>
+<marquee bgcolor="lightyellow" direction="left"><b><font size="5" color="red"></font></b>
+</marquee>
+</td>
+</tr>
+</tr>
+</table>
+
+
+<p><center>
+<font face="Arial" color="white"><b>This site aims to provide a safe journey to you.</b></font></center>
+
+<p><center><b><font face="Arial" size="+1" color="white">Click on the badge to start your journey.</font></b></center>
+<br/>
+<br/>
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 COLS=5 WIDTH="100%" >
+<tr ALIGN=CENTER VALIGN=CENTER>
+<td><a href="contact.html"><img SRC="log10.jpg" border="0" height=79 width=77></a></td>
+<td><a href="Alfa_romeo_main.html"><img SRC="offer.png" border="0" height=76 width=77></a></td>
+<td><a href="Ferrari_main.html"><img SRC="search.png" border="0" height=76 width=44></a></td>
+<td><a href="madu.html"><img SRC="logout.jpg" border="0" height=79 width=77></a></td>
+
+</tr>
+</table>
+
+
+
+</body>
+</html>
